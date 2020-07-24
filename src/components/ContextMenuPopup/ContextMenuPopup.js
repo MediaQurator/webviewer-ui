@@ -122,7 +122,7 @@ const ContextMenuPopup = () => {
         <ActionButton
           dataElement="freeHandToolButton"
           title="annotation.freehand"
-          img="ic_annotation_freehand_black_24px"
+          img="ic_edit_black_24px"
           onClick={() => setToolModeAndGroup(store, 'AnnotationCreateFreeHand')}
         />
         <ActionButton

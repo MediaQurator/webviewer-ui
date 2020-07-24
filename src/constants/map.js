@@ -20,7 +20,7 @@ const map = {
       annotation.Subject === i18next.t('annotation.signature'),
   },
   freeHand: {
-    icon: 'ic_annotation_freehand_black_24px',
+    icon: 'ic_edit_black_24px',
     iconColor: 'StrokeColor',
     currentPalette: 'StrokeColor',
     availablePalettes: ['StrokeColor'],

@@ -51,8 +51,8 @@
     "ellipse": "Ellipse",
     "eraser": "Eraser",
     "fileattachment": "File attachment",
-    "freehand": "Free hand",
-    "freehand2": "Free hand",
+    "freehand": "Draw",
+    "freehand2": "Draw",
     "freetext": "Free text",
     "freetext2": "Free text",
     "highlight": "Highlight",
@@ -99,7 +99,7 @@
     "SBRejected": "Rejected"
   },
   "component": {
-    "freehandToolsButton": "Freehand tools",
+    "freehandToolsButton": "Drawing tools",
     "leftPanel": "Panel",
     "searchOverlay": "Search",
     "menuOverlay": "Menu",
