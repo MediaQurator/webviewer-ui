@@ -232,6 +232,10 @@ export default initialState => (state = initialState, action) => {
       return { ...state, customElementOverrides: { ...state.customElementOverrides, [payload.dataElement]: payload.overrides } };
     case 'SET_NOTE_TRANSFORM_FUNCTION':
       return { ...state, noteTransformFunction: payload.noteTransformFunction };
+    case 'SET_ANNOTATION_CONTENT_OVERLAY_HANDLER':
+      return { ...state, annotationContentOverlayHandler: payload.annotationContentOverlayHandler };
+    case 'SET_MOUSE_WHEEL_ZOOM':
+      return { ...state, enableMouseWheelZoom: payload.enableMouseWheelZoom };
     default:
       return state;
   }

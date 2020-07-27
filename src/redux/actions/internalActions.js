@@ -232,6 +232,10 @@ export const disableReplyForAnnotations = func => ({
   type: 'SET_REPLY_DISABLED_FUNC',
   payload: { func },
 });
+export const setMouseWheelZoom = (enableMouseWheelZoom = true) => ({
+  type: 'SET_MOUSE_WHEEL_ZOOM',
+  payload: { enableMouseWheelZoom },
+});
 
 // document
 export const setTotalPages = totalPages => ({
@@ -322,14 +326,6 @@ export const removeSearchListener = func => ({
 export const setSearchValue = value => ({
   type: 'SET_SEARCH_VALUE',
   payload: { value },
-});
-export const setActiveResult = activeResult => ({
-  type: 'SET_ACTIVE_RESULT',
-  payload: { activeResult },
-});
-export const setActiveResultIndex = index => ({
-  type: 'SET_ACTIVE_RESULT_INDEX',
-  payload: { index },
 });
 export const addResult = result => ({
   type: 'ADD_RESULT',
